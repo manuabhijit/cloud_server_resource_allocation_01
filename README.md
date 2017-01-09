@@ -21,7 +21,8 @@ Demonstration of resource allocation over cloud server via PHP and MySQL based W
 
 
 #Project Description:
-
+	
+	wILL be updated soon.
    
 
 # File Description 

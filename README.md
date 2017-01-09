@@ -40,7 +40,17 @@ Demonstration of resource allocation over cloud server via PHP and MySQL based W
     
 2.register_resources->index.php
 
-    This page has front-end form to transfer data register_resources->reqister_me.php .
+    This page has front-end form to transfer data to register_resources->reqister_me.php.
+    
+3.check_availability->check_me.php
+
+    This file checks if the requested amount of datatabase and pocessors are availabe with the cloud service.
+    
+    If server has availabiliy it prints the cost, else tells the message other wise.
+
+4.check_availability->index.php
+
+    This page has front-end form to transfer data to check_availability->check_me.php.
     
     
     
@@ -49,13 +59,13 @@ Demonstration of resource allocation over cloud server via PHP and MySQL based W
   Make sure you have PHP and MySQL Working (probably with Xampp).
   Unzip the folder in PHP server dirctory. 
   
-  Create a database and import database_demo_files -> bus_reg_system.sql. This would create to tables.
+  Create a database and import assets_sample_database -> demo_db.sql. This would create to tables.
   
-  Also see database_demo_files -> bus_reg_system.sql in your text editor.
+  Also see assets_sample_database -> demo_db.sql in your text editor.
   
-  Now open book.php and search for DB connection variables (You may need to change )
+  Now open each php file and search for DB connection variables (You may need to change )
  
-  $host="localhost";	$username="root";	$password=""; 		$database="db_bus";
+  $host="localhost";	$username="root";	$password=""; 		$database="< your db name>";
   
   The Web-Application should be up and running by now
   
